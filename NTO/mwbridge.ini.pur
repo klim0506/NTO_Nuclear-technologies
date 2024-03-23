@@ -1,0 +1,144 @@
+[trends]
+mainpath=C:\NTO\
+time=-1
+memory=-1
+takt=0
+process=-1
+sent=-1
+received=-1
+ar=-1
+bs=-1
+cpu=-1
+rr=-1
+is=-1
+ic=-1
+loadings=-1
+processess=-1
+stat_slot_uso=-1
+
+[lkp]
+item250=Термосопр.П
+item251=Термосопр.Pt
+item252=Термосопр.M
+item253=Термосопр.Cu
+
+[awp_slot]
+trust0=:60:127.0.0.1
+defcharset=windows-1251
+defmime=text/plain
+mime0=txt:text/plain htm:text/html html:text/html css:text/css xml:text/xml
+mime1=gif:image/gif png:image/png jpg:image/jpg bmp:image/bmp svg:image/svg+xml
+rootdir=C:\NTO\www
+port=81
+defconnections=50
+incconnections=10
+extensions=xml;js;cr
+logaccess=0
+logaccesspath=c:\
+logcontrol=0
+logcontrolpath=c:\
+logfreq=0
+logfreqpath=c:\
+
+[Registration]
+User=Shemursha
+Key=6B8E000003128FEF
+
+[slots]
+opc=
+
+[general]
+analogs=51
+discrets=51
+static_text=0
+autohide=0
+DDEResponde=0
+half_height=0
+bridge=1
+project_comment=
+project_name=
+base_takt=50
+avg_1_takt=1000
+avg_2_takt=60000
+avg_3_takt=3600000
+ignore_bases=0
+onlytextbases=0
+syncpacket_ignore_timeout=0
+bad_supress=0
+disable_trends=0
+disable_umiks_trends=0
+disable_tep=0
+avg_method=0
+enable_set4tm=0
+save_syslog=0
+topmost=0
+max_zipdir_size=200
+sound=0
+trace=0
+new_base_interface=1
+restart_delay=0
+
+[calc]
+Item0=A7 , 18
+Item1=A8 , 0.5
+Item2=A9 , 0.8
+Item3=A19 , 0.18
+Item4=A6 , 15.6
+Item5=A30 , 1
+Item6=A31 , 0.001
+Item7=A32 , 0.1
+Item8=A26 , 0
+Item9=A34 , 0
+Item10=A35 , 0
+Item11=A37 , 0
+
+[SQL]
+dsn=
+db=
+server=
+uid=
+pwd=
+port=
+flag=
+dir=
+
+[HTTP]
+path=
+charset=cp1251
+drive=-1
+comment=
+
+[umiks_trends_view]
+state_window_visible=0
+hor_ver_pos=0;0
+events_pos=200
+events_cw=35,49
+events_visible=2
+tool_window_pos=249;494
+tool_window_size=116;296
+events_window_pos=327;385
+state_window_rect=327;385;400;300
+color_fon=#ffffff
+color_cursor=#000000
+color_selected=#ffff00
+color_grid=#c0c0c0
+alpha=0
+color_pens=#008000,#ff0000,#0000ff,#ff00ff,#000000,#808080,#998080,#b28080,#cb8080,#e48080,#808080,#809980,#80b280,#80cb80,#80e480,#808080,#808099,#8080b2,#8080cb,#8080e4,#800000,#990000,#b20000,#cb0000,#e40000
+width_pens=0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+size=887;661
+font=MS Shell Dlg 2,10,-1,5,50,0,0,0,0,0
+scale=1
+font_size_for_events=6
+
+[Emulator1]
+takt=170
+parameter=A1
+min=0
+max=16
+step=0.01
+func=SIN
+drive=0
+comment=
+
+[umiks_buncher]
+size=887;661
